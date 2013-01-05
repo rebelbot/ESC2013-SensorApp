@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ESC 2013 Sensor App</string>
+    <string name="menu_settings">Settings</string>
+    <string name="button_Normal">Normal</string>
+    <string name="button_UI">UI</string>
+    <string name="button_Gaming">Gaming</string>
+    <string name="button_Fastest">Fastest</string>
+    <string name="dialog_title_sensor">Set Sensor</string>
+    <string name="button_Cancel">Cancel</string>
+    <string name="edittext_str">0</string>
+
+</resources>

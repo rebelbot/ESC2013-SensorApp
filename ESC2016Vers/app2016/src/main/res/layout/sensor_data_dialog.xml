@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="left"
+    android:gravity="right|center_horizontal"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="#FFFFBB33"
+        android:contentDescription="@string/app_name"
+        android:cropToPadding="false"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/ic_launcher" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/buttonCancel"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="@string/edittext_str" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/buttonCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layoutSamples"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/button_Cancel"
+        android:textSize="15sp" />
+    
+	<LinearLayout
+	    android:id="@+id/layoutSamples"
+	    android:layout_marginTop="10dp"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@+id/imageView1"
+	    android:weightSum="1.0" >
+
+	    <Button
+	        android:id="@+id/buttonNormal"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_weight=".26"
+	        android:text="@string/button_Normal"
+	        android:textSize="15sp" />
+	
+	    <Button
+	        android:id="@+id/buttonUI"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_weight=".20"
+	        android:text="@string/button_UI"
+	        android:textSize="15sp" />
+	        
+	    <Button
+	        android:id="@+id/buttonGaming"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_weight=".25"
+	        android:text="@string/button_Gaming"
+	        android:textSize="15sp" />
+	    	
+	    <Button
+	        android:id="@+id/buttonFastest"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_weight=".27"
+	        android:text="@string/button_Fastest"
+	        android:textSize="15sp" />
+
+	</LinearLayout>
+</RelativeLayout>
